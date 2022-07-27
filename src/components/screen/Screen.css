@@ -1,0 +1,16 @@
+.screen-coating{
+    background: rgba(195, 200, 186, 0.87);
+    height: 100vh;
+}
+.screen-img{
+    background-image: url("./img/screen.jpg");
+    height: 100vh;
+    position: relative;
+}
+.adidasIconAndTitle_container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    top: 20px;
+}
