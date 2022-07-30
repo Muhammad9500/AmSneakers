@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import Yeezy from "./img/Yeezy2.png"
 
 import "./Main.css"
-const Main = (setModalCheckout) => {
+const Main = ({setModalCheckout}) => {
     const openModalCheckout = () => {
         setModalCheckout(true)
     }
@@ -15,7 +15,7 @@ const Main = (setModalCheckout) => {
                 оригинала!</p>
                 <div className='main_button-container'>
                     <button className='main_button' onClick={openModalCheckout}>
-                        Заказать модель
+                        Отправить заявку
                     </button>
                 </div>
             </div>

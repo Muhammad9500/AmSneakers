@@ -7,7 +7,7 @@ const footer = () => {
     return (
         <div className='footer_container'>
             <a href="tel:+79999909500" className='footer_socialLinks'><Phone/></a>
-            <a href="https://www.instagram.com" className='footer_socialLinks'><Instagram/></a>
+            <a href="https://www.instagram.com/_amsneakers/" className='footer_socialLinks'><Instagram/></a>
             <a href="https://t.me/+79999909500" className='footer_socialLinks'><Telegram/></a>
         </div>
     );

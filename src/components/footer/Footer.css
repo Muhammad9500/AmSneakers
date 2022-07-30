@@ -1,9 +1,8 @@
 .footer_container{
-    padding: 80px 15px 15px 15px;
+    padding: 90px 15px 15px 15px;
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    align-items: center;
     margin-left: auto;
     margin-right: auto;
     width: 1200px;

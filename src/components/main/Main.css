@@ -7,7 +7,7 @@
     padding-top: 50px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 80px;
+    padding-bottom: 90px;
     box-sizing: border-box;
     justify-content: center;
 }
@@ -15,18 +15,18 @@
     font-family: "Lato", sans-serif;
     font-weight: 800;
     color: #4D4A4A;
-    font-size: 52px;
+    font-size: 64px;
     margin-bottom: 7px;
 }
 .main_description{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     color: #4D4A4A;
     margin-bottom: 60px;
 }
 .main_txtAndButton-container{
-    margin-right: 42px;
+    margin-right: 52px;
 }
 .main_button{
     width: 238px;
@@ -36,6 +36,6 @@
     border: none;
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 18px;
 }
