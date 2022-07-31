@@ -1,11 +1,8 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Yeezy from "./img/Yeezy2.png"
 
 import "./Main.css"
-const Main = ({setModalCheckout}) => {
-    const openModalCheckout = () => {
-        setModalCheckout(true)
-    }
+const Main = () => {
     return (
         <div className='main_container'>
             <div className='main_txtAndButton-container'>
@@ -14,7 +11,7 @@ const Main = ({setModalCheckout}) => {
                 наилучшего качества, не отличимые от<br/>
                 оригинала!</p>
                 <div className='main_button-container'>
-                    <button className='main_button' onClick={openModalCheckout}>
+                    <button className='main_button'>
                         Отправить заявку
                     </button>
                 </div>
